@@ -2,7 +2,7 @@
 
 # Pewlett Hackard 1980s and 1990s Employee Data Analysis
 
-## Research using remaining HR employee files from 80s and 90s.
+## Research uses remaining HR employee files from 80s and 90s.
 
 ### There are 3 parts to this research:
 
@@ -11,17 +11,17 @@
 4. Data Analysis
 
 
-Data Modeling:
+### Data Modeling:
   a. An ERD Diagram has been created with the remainder 6 csv data files in order to properly connect and study the data
 (See EmployeeSQL/DataModeling directory for images)
   
-Data Engineering:
+### Data Engineering:
   a. The ERD Diagram has been turned into real physical tables in a PostgreSQL database
   b. CSV files for this research have been loaded into each respective table created
   c. Keys and integrity constraints have beed created in 3rd normal form for analysis of the data
 (See EmployeeSQL/DataEngineering directory)
   
-Data Analysis:  the following questions were answered about the data
+### Data Analysis:  the following questions were answered about the data
   1. List the employee number, last name, first name, sex, and salary of each employee.
   2. List the first name, last name, and hire date for the employees who were hired in 1986.
   3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
