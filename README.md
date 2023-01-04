@@ -12,13 +12,13 @@
 
 
 ### Data Modeling:
-  a. An ERD Diagram has been created with the remainder 6 csv data files in order to properly connect and study the data
+  1. An ERD Diagram has been created with the remainder 6 csv data files in order to properly connect and study the data
 (See EmployeeSQL/DataModeling directory for images)
   
 ### Data Engineering:
-  a. The ERD Diagram has been turned into real physical tables in a PostgreSQL database
-  b. CSV files for this research have been loaded into each respective table created
-  c. Keys and integrity constraints have beed created in 3rd normal form for analysis of the data
+  1. The ERD Diagram has been turned into real physical tables in a PostgreSQL database
+  2. CSV files for this research have been loaded into each respective table created
+  3. Keys and integrity constraints have beed created in 3rd normal form for analysis of the data
 (See EmployeeSQL/DataEngineering directory)
   
 ### Data Analysis:  the following questions were answered about the data
