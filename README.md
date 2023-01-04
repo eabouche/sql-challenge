@@ -13,11 +13,21 @@
 
 Data Modeling:
   a. An ERD Diagram has been created with the remainder 6 csv data files in order to properly connect and study the data
+(See EmployeeSQL/DataModeling directory for images)
   
 Data Engineering:
   a. The ERD Diagram has been turned into real physical tables in a PostgreSQL database
   b. CSV files for this research have been loaded into each respective table created
   c. Keys and integrity constraints have beed created in 3rd normal form for analysis of the data
+(See EmployeeSQL/DataEngineering directory)
   
 Data Analysis:  the following questions were answered about the data
-  a. 
+  1. List the employee number, last name, first name, sex, and salary of each employee.
+  2. List the first name, last name, and hire date for the employees who were hired in 1986.
+  3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
+  4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+  5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+  6. List each employee in the Sales department, including their employee number, last name, and first name.
+  7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+  8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+(See EmployeeSQL/DataAnalysis directory)
