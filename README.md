@@ -2,7 +2,7 @@
 
 # Pewlett Hackard 1980s and 1990s Employee Data Analysis
 
-## Research on remainder HR employee information available from 80s and 90s.
+## Research using remaining HR employee files from 80s and 90s.
 
 ### There are 3 parts to this research:
 
